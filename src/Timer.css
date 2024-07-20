@@ -1,0 +1,36 @@
+/* Timer.css */
+.timer-container {
+  text-align: center;
+}
+
+.timer-display {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.progress-bar-container {
+  width: 1000px;
+  height: 20px;
+  background-color: #ddd;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #1417d6;
+  transition: width 1s linear;
+}
+
+.controls button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #1417d6;
+  color: white;
+}
+

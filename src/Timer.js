@@ -37,7 +37,7 @@ const Timer = () => {
     const secs = seconds % 60;
     return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
   };
-
+  // Change to scale with custom time
   const progressPercentage = ((15 * 60 - time) / (15 * 60)) * 100;
 
   return (

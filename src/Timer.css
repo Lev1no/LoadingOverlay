@@ -11,15 +11,24 @@
 .progress-bar-container {
   width: 1000px;
   height: 20px;
-  background-color: #ddd;
+  background-color: black;
   margin-bottom: 20px;
   position: relative;
+  border: 2px solid white; /* Add a white border to the container */
+  box-sizing: border-box; /* Include the border in the element's total width and height */
 }
 
 .progress-bar {
   height: 100%;
-  background-color: #1417d6;
+  background-color: white;
   transition: width 1s linear;
+}
+
+.controls {
+  margin-top: 60px; /* Add space between the loading bar and the buttons */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .controls button {
@@ -27,10 +36,31 @@
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
+  background-color: black;
+  color: grey;
+  border: none; /* Remove default border */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
 }
 
 .controls button:hover {
-  background-color: #1417d6;
-  color: white;
+  background-color: white;
+  color: black;
+}
+
+.time-inputs {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.time-inputs input {
+  margin: 0 5px;
+  padding: 5px;
+  font-size: 1em;
+  text-align: center;
+  width: 60px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 

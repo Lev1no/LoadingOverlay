@@ -99,6 +99,7 @@ const Timer = () => {
           />
         </div>
       </div>
+      <div className="timer-display-background">{formatTime(time)}</div>
     </div>
   );
 };

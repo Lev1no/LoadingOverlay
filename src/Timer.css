@@ -9,8 +9,8 @@
 }
 
 .progress-bar-container {
-  width: 1000px;
-  height: 20px;
+  width: 500px;
+  height: 40px;
   background-color: black;
   margin-bottom: 20px;
   position: relative;
@@ -64,3 +64,10 @@
   border-radius: 4px;
 }
 
+.timer-display-background {
+  font-size: 2em;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: black; /* Ensure the text color is white for visibility */
+}

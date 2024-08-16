@@ -15,20 +15,24 @@ This is a simple React web application that implements a countdown timer with a 
 1. Clone the repository:
     ```bash
     git clone https://github.com/Lev1no/LoadingOverlay.git
-    cd LoadingOverlay
     ```
-
-2. Install the dependencies:
+    
+2. Move in to the project directory
+   ```bash 
+   cd LoadingOverlay
+   ```
+    
+3. Install the dependencies:
     ```bash
     npm install
     ```
-
-3. Start the development server:
+    
+4. Start the development server:
     ```bash
     npm start
     ```
-
-4. Open your browser and navigate to:
+    
+5. Open your browser and navigate to:
     ```
     http://localhost:3000
     ```

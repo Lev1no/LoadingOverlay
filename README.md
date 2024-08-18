@@ -34,7 +34,7 @@ This is a simple React web application that implements a countdown timer with a 
     
 5. Open your browser and navigate to:
     ```
-    http://localhost:3000
+    http://localhost:3001
     ```
 
 ## Usage

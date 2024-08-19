@@ -1,5 +1,7 @@
 # LoadingOverlay
 
+Thanks for staring!
+
 This is a simple React web application that implements a countdown timer with a customizable start time. The timer can be controlled using Play, Pause, Reset, and Add 30 seconds buttons. The timer's progress is displayed as a loading bar.
 
 ## Features
@@ -26,7 +28,7 @@ This is a simple React web application that implements a countdown timer with a 
     ```bash
     npm install
     ```
-    
+     
 4. Start the development server:
     ```bash
     npm start

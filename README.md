@@ -13,7 +13,7 @@ This is a simple React web application that implements a countdown timer with a 
 - Visual progress bar indicating time elapsed
 
 ## Installation
-
+//SS
 1. Clone the repository:
     ```bash
     git clone https://github.com/Lev1no/LoadingOverlay.git
